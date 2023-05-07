@@ -16,7 +16,7 @@ jobs:
       with:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
-        repository: subinc/mern_back
+        repository: zubairsource/mern_back
         dockerfile: backend/Dockerfile
         tags: latest
   build-and-deploy-front:
@@ -30,7 +30,7 @@ jobs:
       with:
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
-        repository: subinc/mern_front
+        repository: zubairsource/devops-assignment-1.0.0
         dockerfile: frontend/Dockerfile
         tags: latest    
      
